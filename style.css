@@ -1,6 +1,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
+    font-family: 'Nanum Brush Script', cursive;
     margin: 0;
 }
 
@@ -10,6 +11,8 @@ h1 {
 
 p {
     font-family: poppins;
+    font-size: 18px;
+    font-weight: 500;
     margin-bottom: 30px;
 }
 
@@ -37,7 +40,9 @@ p {
 .button {
     text-decoration: none;
     color: white;
+    font-family: sans-serif;
     font-weight: 500;
+    letter-spacing: 1px;
     background-color: #ff5959;
     padding: 10px 20px;
     border-radius: 5px;
@@ -53,7 +58,7 @@ p {
     color: #707070;
 }
 
-.header-text {
+.section-style h1 {
     font-size: 45px;
     margin-bottom: 0;
 }
@@ -70,7 +75,7 @@ h3 {
     margin: 10px;
 }
 
-.amount-holder {
+#amount-holder {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -83,10 +88,10 @@ h3 {
     border: 2px solid #ff5959;
 }
 
-#amount-field {
+#amount-input-field {
     margin: 30px;
     padding: 10px;
-    font-size: 20px;
+    font-size: 15px;
     font-family: poppins;
     text-align: center;
     color: #b3b3b3;
@@ -95,4 +100,82 @@ h3 {
     border-left: 0;
     border-right: 0;
     width: 650px;
+}
+
+/* Donate plan section */
+.content-center {
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#plan-card-food {
+    background-color: #4f9da615;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 60px 20px 40px 20px;
+    border-radius: 5px;
+}
+
+#plan-card-food h2 {
+    font-family: roboto;
+    color: #121212;
+}
+
+#plan-card-food p {
+    color: #707070;
+}
+
+#plan-card-shelter {
+    background-color: #ff595915;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 60px 20px 40px 20px;
+    border-radius: 5px;
+}
+
+#plan-card-shelter h2 {
+    font-family: roboto;
+    color: #121212;
+}
+
+#plan-card-shelter p {
+    color: #707070;
+}
+
+#plan-card-education {
+    background-color: #fff4d6;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 60px 20px 40px 20px;
+    border-radius: 5px;
+}
+
+#plan-card-education h2 {
+    font-family: roboto;
+    color: #121212;
+}
+
+#plan-card-education p {
+    color: #707070;
+}
+
+/* Quote section */
+.quote {
+    background: #fff9f0;
+    padding: 80px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.quote h2 {
+    font-size: 400%;
+    color: #901f61;
+    margin-bottom: 0;
+}
+
+.quote h5 {
+    font-family: roboto;
+    font-size: 20px;
 }

@@ -7,7 +7,7 @@
     <title>Donate Today</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&family=Poppins:wght@200&family=Roboto:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -25,10 +25,12 @@
     <!-- Donate Today section -->
     <section class="section-style">
        <div>
-            <h1 class="header-text">Donate Today</h1>
-            <p>Do a good deed by giving to those in need.<br>Help us to build a shelter for those who doesn't have home to live.</p>
+            <h1>Donate Today</h1>
+            <p>
+                Do a good deed by giving to those in need.<br>Help us to build a shelter for those who doesn't have home to live.
+            </p>
        </div>
-       <div class="amount-holder">
+       <div id="amount-holder">
             <h3>100tk</h3>
             <h3 id="selected-amount-style">200tk</h3>
             <h3>500tk</h3>
@@ -36,11 +38,56 @@
             <h3>5000tk</h3>
        </div>
        <div>
-            <input type="number" placeholder="Other Amount (Taka)" id="amount-field">
+            <input type="number" placeholder="Other Amount (Taka)" id="amount-input-field">
        </div>
        <div>
             <a class="button" href="http://google.com">Donate Now</a>
        </div>
+    </section>
+
+    <!-- Our Donate Plan section -->
+    <section>
+        <div class="section-style">
+            <h1 class="header-text">Our Donate Plan</h1>
+            <p>
+                Donate now to help children and their families move themselves<br> from a life of poverty to a future with opportunity.
+            </p>
+        </div>
+
+        <div class="content-center">
+            <div id="plan-card-food">
+                <img src="icons/food.png" alt="">
+                <h2>Food for a family</h2>
+                <p>
+                    Every child has a right to a healthy meal. This giving tuesday give the gift of fullness. From scarcity to plenty, Feed God's Hungry Children is standing in the gap. Don't be late. Donate Today!
+                </p>
+            </div>
+
+            <div id="plan-card-shelter">
+                <img src="icons/shelter.png" alt="">
+                <h2>Shelter for a family</h2>
+                <p>
+                    Every child deserves a home. You can help them break the homelessness cycle by making a much needed contribution to Family Shelter. Every donation helps a family build a safe and affordable home.
+                </p>
+            </div>
+
+            <div id="plan-card-education">
+                <img src="icons/Frame-1.png" alt="">
+                <h2>Education for a child</h2>
+                <p>
+                    Give kids the chance to succeed. A good education is a child's best chance to escape poverty. When you fund a monthly Education Pass, you ensure that kids will have a chance to fight with his or her proverty.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="quote">
+        <div>
+            <h2>“A child without education is like a bird without wings.”</h2>
+        </div>
+        <div>
+            <h5>– TIBETAN PROVERB</h5>
+        </div>
     </section>
 </body>
 </html>
