@@ -20,7 +20,9 @@ p {
     margin-bottom: 30px;
 }
 
-/* Banner section */
+
+
+/*========= Banner section========== */
 .top-banner {
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.12), rgba(0, 0, 0, 0.825)), url(images/donation9.jpg);
     width: auto;
@@ -52,7 +54,10 @@ p {
     border-radius: 5px;
 }
 
-/* Donate today section */
+
+
+
+/*======== Donate today section ========== */
 .section-style {
     text-align: center;
     margin-bottom: 100px;
@@ -106,7 +111,9 @@ h3 {
     width: 650px;
 }
 
-/* Donate plan section */
+
+
+/*======== Donate plan section =========*/
 .content-center {
     margin: 100px;
     display: flex;
@@ -165,7 +172,9 @@ h3 {
     color: #707070;
 }
 
-/* CHILD SPONSORSHIP (Bonus content) */
+
+
+/*======= CHILD SPONSORSHIP (Bonus content) =========*/
 
 .background-color {
     background-color: #d9f5b5a1;
@@ -199,28 +208,8 @@ h3 {
     margin: 20px;
 }
 
-/* Quote section */
-.quote {
-    background: #fff9f0;
-    padding: 80px;
-    text-align: center;
-    margin-bottom: 30px;
-}
 
-.quote h2 {
-    font-size: 400%;
-    font-family: Nanum Brush Script;
-    color: #901f61;
-    margin-bottom: 0;
-}
-
-.quote h5 {
-    font-family: roboto;
-    font-size: 20px;
-    color: #2c2c2c;
-}
-
-/* Subscribe section (Bonus content */
+/*========= Subscribe section (Bonus content =============*/
 #subscribe {
     background-color: #FFF4D6;
     margin-left: 170px;
@@ -237,7 +226,7 @@ h3 {
     padding-left: 20px;
 }
 
-/* Footer section */
+/*======== Footer section =========*/
 footer {
     background-color: #000000;
     height: 150px;
