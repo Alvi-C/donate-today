@@ -161,6 +161,40 @@ h3 {
     color: #707070;
 }
 
+/* CHILD SPONSORSHIP (Bonus content) */
+
+.background-color {
+    background-color: #d9f5b5a1;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    padding: 30px;
+}
+
+.flexible-container {
+    display: flex;
+}
+
+.text-area {
+    width: 30%;
+    margin-right: 60px;
+    padding-left: 40px;
+}
+
+.text-area h1 {
+    margin-bottom: 60px;
+    font-size: 350%;
+}
+
+.text-area p {
+    margin-bottom: 50px;
+}
+
+.img-area {
+    width: 30%;
+    margin: 20px;
+}
+
 /* Quote section */
 .quote {
     background: #fff9f0;
@@ -178,4 +212,5 @@ h3 {
 .quote h5 {
     font-family: roboto;
     font-size: 20px;
+    color: #2c2c2c;
 }
