@@ -9,6 +9,10 @@ h1 {
     font-family: roboto;
 }
 
+h2 {
+    font-family: roboto;
+}
+
 p {
     font-family: poppins;
     font-size: 18px;
@@ -183,7 +187,7 @@ h3 {
 
 .text-area h1 {
     margin-bottom: 60px;
-    font-size: 350%;
+    font-size: 300%;
 }
 
 .text-area p {
@@ -205,6 +209,7 @@ h3 {
 
 .quote h2 {
     font-size: 400%;
+    font-family: Nanum Brush Script;
     color: #901f61;
     margin-bottom: 0;
 }
@@ -213,4 +218,38 @@ h3 {
     font-family: roboto;
     font-size: 20px;
     color: #2c2c2c;
+}
+
+/* Subscribe section (Bonus content */
+#subscribe {
+    background-color: #FFF4D6;
+    margin-left: 170px;
+    margin-right: 170px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#subscribe input {
+    background-color: #d9d9d9;
+    border: none;
+    height: 35px;
+    width: 250px;
+    padding-left: 20px;
+}
+
+/* Footer section */
+footer {
+    background-color: #000000;
+    height: 150px;
+}
+
+footer h2 {
+    text-align: center;
+    color: #ff5959;
+    padding-top: 40px;
+}
+
+footer p {
+    text-align: center;
+    color: white;
 }
